@@ -39,6 +39,9 @@ classifiers=[
     "Natural Language :: English",
 ]
 
+[project.optional-dependencies]
+mcp = ["fastmcp"]
+
 [project.urls]
 Homepage = "https://github.com/tylerebowers/Schwabdev"
 Documentation = "https://tylerebowers.github.io/Schwabdev/"
