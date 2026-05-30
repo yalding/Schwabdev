@@ -15,9 +15,13 @@ The Model Context Protocol (MCP) is an open-standard protocol that enables LLM c
 ## 1. Quick Start
 
 ### Installation
-Ensure you have the virtual environment activated and the required `fastmcp` package installed:
+Ensure you have the virtual environment activated. You can install the required `fastmcp` dependency either standalone or directly via the `mcp` optional dependency group:
 ```bash
+# Standalone installation
 pip install fastmcp
+
+# Or package installation with MCP extras
+pip install "schwabdev[mcp]"
 ```
 
 ### Configuration

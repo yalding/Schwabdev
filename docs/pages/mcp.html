@@ -17,8 +17,12 @@
 <hr />
 <h2>1. Quick Start</h2>
 <h3>Installation</h3>
-<p>Ensure you have the virtual environment activated and the required <code>fastmcp</code> package installed:</p>
-<div class="codehilite"><pre><span></span><code>pip<span class="w"> </span>install<span class="w"> </span>fastmcp
+<p>Ensure you have the virtual environment activated. You can install the required <code>fastmcp</code> dependency either standalone or directly via the <code>mcp</code> optional dependency group:</p>
+<div class="codehilite"><pre><span></span><code><span class="c1"># Standalone installation</span>
+pip<span class="w"> </span>install<span class="w"> </span>fastmcp
+
+<span class="c1"># Or package installation with MCP extras</span>
+pip<span class="w"> </span>install<span class="w"> </span><span class="s2">&quot;schwabdev[mcp]&quot;</span>
 </code></pre></div>
 
 <h3>Configuration</h3>
